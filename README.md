@@ -10,8 +10,8 @@ This repository is a curated list of research papers, projects, and resources re
 
 | # | Paper Title | Date | Key Take-away | Company/Institute | Notes |
 | -- | --------------- | --------- | ------------- | ------------- | ---- |
-| 01 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience<details> | Nov 2025 | RECAP / distributional value function | Physical Intelligence (PI) | [Notes](notes/attachments/Pi%2006_260127_100858.pdf) |
-| 02 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 | Notes |
+| 01 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience<details> | Nov 2025 | RECAP / distributional value function | Physical Intelligence (PI) | [Notes](notes/attachments/Pi%2006_260127.pdf) |
+| 02 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 | [Notes](notes/sop_260127/sop_260127.md) |
 
 
 ## Paper Scope
