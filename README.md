@@ -1,5 +1,5 @@
 # Awesome Works of RL in VLA
-Hi, here is a curated list of research papers, projects, and resources related to Reinforcement Learning (RL) in Visual Language Agents (VLA)! 
+Hi, here is a curated list of research papers, datasets, benchmarks and resources related to Reinforcement Learning (RL) in Visual Language Agents (VLA)!
 
 Note that,
 
@@ -34,8 +34,8 @@ Note that,
 | # | Paper Title | Date | Platform | Models | Company/Institute | Key Take-aways |
 | -- | ----------- | ------- | -------- | -------- | ------ | ----------------- |
 | 01 | <details><summary>RoboReward</summary>: General-purpose Vision-Language Reward Models for Robotics</details> | Jan 2026 | (N) | RoboReward 4B / 8B | <details><summary>UC Berkeley / Stanford University</summary>- Sergey Levine / Chelsea Finn</details> | [Notes](notes/roboreward_260202/notes.md) |
-| 02 | <details><summary>RoboArena</summary>: Distributed Real-World Evaluation of Generalist Robot Policies</details> | Nov 2025 | <details><summary>DROID Robot Platform</summary>- consists of a Franka Panda 7DoF robot arm, two adjustable Zed 2 stereo cameras, a wristmounted Zed Mini stereo camera, and an Oculus Quest 2 headset with controllers for teleoperation (refer to [here](https://droid-dataset.github.io/))</details> | (N) | <details><summary>UC Berkeley / Stanford University</summary>- Chelsea Finn / Sergey Levine</details> | Coming soon |
-| 03 | <details><summary>Open X-Embodiment (OXE)</summary>: Robotic Learning Datasets and RT-X Models</details> | Since Oct 2023 | <details><summary>Multi</summary>- 22 different robotic embodiments from 21 different institutions</details> | RT-1-X / RT-2-X | DeepMind | <details><summary>1M+ real robot trajectories</summary>- pooling 60 existing robot datasets from 34 robotic research labs and converting them all into RLDS data format</details> |
+| 02 | <details><summary>RoboArena</summary>: Distributed Real-World Evaluation of Generalist Robot Policies</details> | Nov 2025 | <details><summary>DROID Robot Platform</summary>- consists of a Franka Panda 7DoF robot arm, two adjustable Zed 2 stereo cameras, a wristmounted Zed Mini stereo camera, and an Oculus Quest 2 headset with controllers for teleoperation (refer to [here](https://droid-dataset.github.io/))</details> | (N) | <details><summary>UC Berkeley / Stanford University</summary>- Chelsea Finn / Sergey Levine</details> | <details><summary>distributed real-world policy evaluation</summary>- aggregates a large number of such pairwise, double-blind comparisons into a global policy ranking.</details> |
+| 03 | <details><summary>Open X-Embodiment (OXE)</summary>: Robotic Learning Datasets and RT-X Models</details> | Since Oct 2023 | <details><summary>Multi</summary>- 22 different robotic embodiments from 21 different institutions</details> | RT-1-X / RT-2-X | DeepMind | <details><summary>1M+ real robot trajectories</summary>- constructed by pooling 60 existing robot datasets from 34 robotic research labs and converting them all into RLDS data format.</details> |
 
 ## Pool of Works
 
