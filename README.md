@@ -21,8 +21,9 @@ Note that,
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
 | 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 | [Notes](notes/sop_260127/sop_260127.md) |
-| 02 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence (PI) | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
-| 03 | <details><summary>SARM</summary>: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</details> | Oct 2025 | <details><summary>SARM</summary>- dual reward model architecture: stage model and subtask model</details> / RA-BC | Stanford University / xdof.ai | [Notes](notes/sarm_260203/SARM_260203_155212.pdf) |
+| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | data filter &augmentation <details><summary>...</summary>/ distributional critic / offline &offline RL for policy training</details> | 字节跳动 Seed | [Notes](notes/gr-rl_260209/notes.md) |
+| 03 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence (PI) | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
+| 04 | <details><summary>SARM</summary>: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</details> | Oct 2025 | <details><summary>SARM</summary>- dual reward model architecture: stage model and subtask model</details> / RA-BC | Stanford University / xdof.ai | [Notes](notes/sarm_260203/SARM_260203_155212.pdf) |
 
 
 ### Paper Scope
