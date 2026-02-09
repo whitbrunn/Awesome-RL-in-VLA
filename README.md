@@ -11,6 +11,7 @@ Note that,
     - [Paper Stage - Main Focus (w.r.t. the Industry)](#paper-stage)
     - [Paper Scope - A Broader Horizon (w.r.t. the Community)](#paper-scope)
 - [Datasets & Benchmarks](#datasets--benchmarks)
+- [Toolkits & Projects](#toolkits--projects)
 - [Pool of Works - To be Shared](#pool-of-works)
 - [Reference Materials](#reference-materials)
 
@@ -29,7 +30,9 @@ Note that,
 ### Paper Scope
 | Paper Title | Date | Key Take-aways | Conference | Institute |
 | ----------- | --------- | ----------------- | --------- | --------- |
+| <details><summary>Steering Your Diffusion Policy </summary>with Latent Space Reinforcement Learning</details> | Jun 2025 | <details><summary>DSRL</summary>- simply “steers” the diffusion policy to produce desired actions by **altering its input noise distribution**.</details> | CoRL | UC Berkeley |
 | <details><summary>A Distributional Perspective </summary>on Reinforcement Learning</details> | Jul 2017 | <details><summary>distributional Bellman equation</summary>- instead of using Q function to model the expectation of the return in the regular RL, it models the full distribution of returns.</details> | ICML | DeepMind |
+
 
 ## Datasets & Benchmarks
 | # | Paper Title | Date | Platform | Models | Company/Institute | Key Take-aways |
@@ -38,12 +41,23 @@ Note that,
 | 02 | <details><summary>RoboArena</summary>: Distributed Real-World Evaluation of Generalist Robot Policies</details> | Nov 2025 | <details><summary>DROID Robot Platform</summary>- consists of a Franka Panda 7DoF robot arm, two adjustable Zed 2 stereo cameras, a wristmounted Zed Mini stereo camera, and an Oculus Quest 2 headset with controllers for teleoperation (refer to [here](https://droid-dataset.github.io/))</details> | (N) | <details><summary>UC Berkeley / Stanford University</summary>- Chelsea Finn / Sergey Levine</details> | <details><summary>distributed real-world policy evaluation</summary>- aggregates a large number of such pairwise, double-blind comparisons into a global policy ranking.</details> |
 | 03 | <details><summary>Open X-Embodiment (OXE)</summary>: Robotic Learning Datasets and RT-X Models</details> | Since Oct 2023 | <details><summary>Multi</summary>- 22 different robotic embodiments from 21 different institutions</details> | RT-1-X / RT-2-X | DeepMind | <details><summary>1M+ real robot trajectories</summary>- constructed by pooling 60 existing robot datasets from 34 robotic research labs and converting them all into RLDS data format.</details> |
 
+
+## Toolkits & Projects
+
+- Implementations of RL Algorithms
+
+| RL Platform                                                        | Documentation                                                                                                                                                        | Code Coverage                                                                                                                                                | PyTorch support   | Tensorboard support  | Last Update                                                                                                       |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)   | [![Documentation Status](https://readthedocs.org/projects/stable-baselines/badge/?version=master)](https://stable-baselines3.readthedocs.io/en/master/?badge=master) | [![coverage report](https://gitlab.com/araffin/stable-baselines3/badges/master/coverage.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) | :heavy_check_mark: | :heavy_check_mark: | ![GitHub last commit](https://img.shields.io/github/last-commit/DLR-RM/stable-baselines3?label=last%20update)     |
+| [Tianshou](https://github.com/thu-ml/tianshou)                     | [![Read the Docs](https://img.shields.io/readthedocs/tianshou)](https://tianshou.readthedocs.io/en/master)                                                           | [![codecov](https://img.shields.io/codecov/c/gh/thu-ml/tianshou)](https://codecov.io/gh/thu-ml/tianshou)                                                     | :heavy_check_mark: | :heavy_check_mark: | ![GitHub last commit](https://img.shields.io/github/last-commit/thu-ml/tianshou?label=last%20update)              |
+
+
 ## Pool of Works
 
 Please check [here](assets/to_be_read.md) for more information.
 
 ## Reference Materials
-- [Reinforcement Learning Course by David Silver, UCL](https://davidstarsilver.wordpress.com/teaching/) 
+- Reinforcement Learning Course by David Silver, UCL, 2015. [[slides](https://davidstarsilver.wordpress.com/teaching/)]
 - ME5418: Machine Learning in Robotics by Prof Guillaume, NUS, Fall 2025 (unfortunately not publicly available yet 😢)
 
 ## Contact
