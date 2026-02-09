@@ -12,6 +12,7 @@ Note that,
     - [Paper Scope - A Broader Horizon (w.r.t. the Community)](#paper-scope)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Toolkits & Projects](#toolkits--projects)
+    - [Implementations of RL Algorithms](#implementations-of-rl-algorithms)
 - [Pool of Works - To be Shared](#pool-of-works)
 - [Reference Materials](#reference-materials)
 
@@ -44,13 +45,14 @@ Note that,
 
 ## Toolkits & Projects
 
-- Implementations of RL Algorithms
+### Implementations of RL Algorithms
 
 | RL Platform                                                        | Documentation                                                                                                                                                        | Code Coverage                                                                                                                                                | PyTorch support   | Tensorboard support  | Last Update                                                                                                       |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)   | [![Documentation Status](https://readthedocs.org/projects/stable-baselines/badge/?version=master)](https://stable-baselines3.readthedocs.io/en/master/?badge=master) | [![coverage report](https://gitlab.com/araffin/stable-baselines3/badges/master/coverage.svg)](https://gitlab.com/araffin/stable-baselines3/-/commits/master) | :heavy_check_mark: | :heavy_check_mark: | ![GitHub last commit](https://img.shields.io/github/last-commit/DLR-RM/stable-baselines3?label=last%20update)     |
 | [Tianshou](https://github.com/thu-ml/tianshou)                     | [![Read the Docs](https://img.shields.io/readthedocs/tianshou)](https://tianshou.readthedocs.io/en/master)                                                           | [![codecov](https://img.shields.io/codecov/c/gh/thu-ml/tianshou)](https://codecov.io/gh/thu-ml/tianshou)                                                     | :heavy_check_mark: | :heavy_check_mark: | ![GitHub last commit](https://img.shields.io/github/last-commit/thu-ml/tianshou?label=last%20update)              |
 
+<sup>*: Adapted from [source a](https://github.com/thu-ml/tianshou) and [b](https://github.com/DLR-RM/stable-baselines3), following MIT license.</sup> 
 
 ## Pool of Works
 
