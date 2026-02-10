@@ -8,7 +8,9 @@ Video refer to [project page](https://seed.bytedance.com/en/gr_rl).
 
 ### 2. Distributional critic model
 
-- base: a causal transformer with 5B parameters
+- base
+    - backbone: same as policy model
+    - head: a causal transformer
 - recipe 
     - data: successful + failed trajectories
     - method: only offline RL
