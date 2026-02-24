@@ -14,6 +14,7 @@ Note that,
 - [Toolkits & Projects](#toolkits--projects)
     - [Implementations of RL Algorithms](#implementations-of-rl-algorithms)
 - [Pool of Works - To be Shared](#pool-of-works)
+- [Insights of the field](#insights-of-the-field)
 - [Reference Materials](#reference-materials)
 
 ## Paper
@@ -32,6 +33,7 @@ Note that,
 | Paper Title | Date | Key Take-aways | Conference | Institute |
 | ----------- | --------- | ----------------- | --------- | --------- |
 | <details><summary>Steering Your Diffusion Policy </summary>with Latent Space Reinforcement Learning</details> | Jun 2025 | <details><summary>DSRL</summary>- simply “steers” the diffusion policy to produce desired actions by **altering its input noise distribution**.</details> | CoRL | UC Berkeley |
+| <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | RWM | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
 | <details><summary>A Distributional Perspective </summary>on Reinforcement Learning</details> | Jul 2017 | <details><summary>distributional Bellman equation</summary>- instead of using Q function to model the expectation of the return in the regular RL, it models the full distribution of returns.</details> | ICML | DeepMind |
 
 
@@ -58,9 +60,16 @@ Note that,
 
 Please check [here](assets/to_be_read.md) for more information.
 
+## Insights of the field
+
+- H. Xu, Embodied AI: A 2025 Retrospective, Dec 2025. [[website](https://zhuanlan.zhihu.com/p/1983661736180589668)]
+- Sergey Levine & Waymo, 
+Robotics Startup Founder Sergey Levine is Building Robots for Your Home (and Work) | AI in Motion, Nov 2025. [[video](https://www.youtube.com/watch?v=0CfMCOzmJZI)]
+
 ## Reference Materials
 - Reinforcement Learning Course by David Silver, UCL, 2015. [[slides](https://davidstarsilver.wordpress.com/teaching/)]
 - ME5418: Machine Learning in Robotics by Prof Guillaume, NUS, Fall 2025 (unfortunately not publicly available yet 😢)
+- Embodied-AI-Guide by TianxingChen. [[code](https://github.com/TianxingChen/Embodied-AI-Guide)]
 
 ## Contact
 For any suggestions or contributions, please feel free to open an issue or submit a pull request. You are also welcome to reach out me for further questions via email at [maij@u.nus.edu](mailto:maij@u.nus.edu)!
