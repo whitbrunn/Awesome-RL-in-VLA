@@ -1,10 +1,11 @@
 # Awesome Works of RL in VLA
-Hi, here is a curated list of research papers, datasets, benchmarks and resources related to Reinforcement Learning (RL) in Visual Language Agents (VLA)!
+Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to Reinforcement Learning (RL) in Visual Language Agents (VLA)!
 
 Note that,
 
-- The focus will especially be on the domain of embodied AI and Robotics.
-- Notes on our main focus will be linked, and any discussions or contributions are highly welcome [here](#contact)!
+- 🎯🤖 The focus will especially be on the domain of embodied AI and Robotics.
+- ✍️🧑‍🤝‍🧑 Notes on our main focus will be linked, and any discussions or contributions are highly welcome [here](#contact)!
+- 🔥🌟 We are updating! **Star** us to get notified of the latest updates!
 
 ## Table of Contents
 - [Paper](#paper)
