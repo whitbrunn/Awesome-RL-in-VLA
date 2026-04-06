@@ -1,5 +1,5 @@
 # Awesome Works of RL in VLA
-Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to Reinforcement Learning (RL) in Visual Language Agents (VLA)!
+Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to World Models and Reinforcement Learning (RL) in Visual Language Agents (VLA)!
 
 Note that,
 
@@ -10,7 +10,11 @@ Note that,
 ## Table of Contents
 - [Paper](#paper)
     - [Paper Stage - Main Focus (w.r.t. the Industry)](#paper-stage)
+        - [1 World Models](#1-world-models)
+        - [2 RL](#2-rl)
     - [Paper Scope - A Broader Horizon (w.r.t. the Community)](#paper-scope)
+        - [World Models](#world-models)
+        - [RL](#rl)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Toolkits & Projects](#toolkits--projects)
     - [Implementations of RL Algorithms](#implementations-of-rl-algorithms)
@@ -22,19 +26,40 @@ Note that,
 
 ### Paper Stage
 
+#### 1 World Models
+
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
-| 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 | [Notes](notes/sop_260127/sop_260127.md) |
-| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | data filter &augmentation <details><summary>...</summary>/ distributional critic / offline &offline RL for policy training</details> | 字节跳动 Seed | [Notes](notes/gr-rl_260209/notes.md) |
+| 01 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA | 蚂蚁灵波 (Bobbyant) |  |
+| 02 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Act | 智元机器人 (AgiBot) |  |
+
+#### 2 RL
+
+| # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
+| -- | --------------- | --------- | ----------------- | --------- | ---- |
+| 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 (AgiBot) | [Notes](notes/sop_260127/sop_260127.md) |
+| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | <details><summary>GR-RL</summary> - data filter &augmentation<br>- distributional critic<br>- offline &online RL for policy training</details> | 字节跳动 (ByteDance) Seed | [Notes](notes/gr-rl_260209/notes.md) |
 | 03 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence (PI) | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
-| 04 | <details><summary>SARM</summary>: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</details> | Oct 2025 | <details><summary>SARM</summary>- dual reward model architecture: stage model and subtask model</details> / RA-BC | Stanford University / xdof.ai | [Notes](notes/sarm_260203/SARM_260203_155212.pdf) |
+
 
 
 ### Paper Scope
+
+#### World Models
+
 | Paper Title | Date | Key Take-aways | Conference | Institute |
 | ----------- | --------- | ----------------- | --------- | --------- |
+| <details><summary>Video Prediction Policy</summary>: A Generalist Robot Policy with Predictive Visual Representations</details> | May 2025 | VPP | <details><summary>ICML</summary>- Spotlight Paper</details> | <details><summary>IIIS, Tsinghua University / Shanghai AI Lab/ Qizhi Research Institute</summary>- Jianyu Chen</details> |
+| <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | <details><summary>RWM</summary>- unfortunately, the output of RWM, i.e., the observation, is only the robot proprioceptive state; that's to say, the robot is 'blind'. </details> | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
+| <details><summary>Stable Video Diffusion</summary>: Scaling Latent Video Diffusion Models to Large Datasets</details> | Nov 2023 | SVD | CVPR | Stability AI |
+| <details><summary>Align your Latents</summary>: High-Resolution Video Synthesis with Latent Diffusion Models</details> | Apr 2023 | <details><summary>Video LDM</summary>- a latent diffusion model for video generation<br>- additional temporal layers are interleaved with the existing spatial layers, and only the former will be updated during training.</details> | CVPR | LMU Munich / NVIDIA |
+
+#### RL
+
+| Paper Title | Date | Key Take-aways | Conference | Institute |
+| ----------- | --------- | ----------------- | --------- | --------- |
+| <details><summary>SARM</summary>: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</details> | Oct 2025 | <details><summary>SARM /</summary>- dual reward model architecture: stage model and subtask model [[Notes](notes/sarm_260203/SARM_260203_155212.pdf)]</details>RA-BC | ICLR | Stanford University / xdof.ai |
 | <details><summary>Steering Your Diffusion Policy </summary>with Latent Space Reinforcement Learning</details> | Jun 2025 | <details><summary>DSRL</summary>- simply “steers” the diffusion policy to produce desired actions by **altering its input noise distribution**.</details> | CoRL | UC Berkeley |
-| <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | RWM | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
 | <details><summary>A Distributional Perspective </summary>on Reinforcement Learning</details> | Jul 2017 | <details><summary>distributional Bellman equation</summary>- instead of using Q function to model the expectation of the return in the regular RL, it models the full distribution of returns.</details> | ICML | DeepMind |
 
 
