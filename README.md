@@ -9,12 +9,12 @@ Note that,
 
 ## Table of Contents
 - [Paper](#paper)
-    - [Paper Stage - Main Focus (w.r.t. the Industry)](#paper-stage)
-        - [1 World Models](#1-world-models)
-        - [2 RL](#2-rl)
-    - [Paper Scope - A Broader Horizon (w.r.t. the Community)](#paper-scope)
-        - [World Models](#world-models)
-        - [RL](#rl)
+    - Paper Stage - Main Focus (w.r.t. the Industry)
+        - [World Models](#paper-stage---world-models)
+        - [RL](#paper-stage---rl)
+    - Paper Scope - A Broader Horizon (w.r.t. the Community)
+        - [World Models](#paper-scope---world-models)
+        - [RL](#paper-scope---rl)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Toolkits & Projects](#toolkits--projects)
     - [Implementations of RL Algorithms](#implementations-of-rl-algorithms)
@@ -24,16 +24,24 @@ Note that,
 
 ## Paper
 
-### Paper Stage
-
-#### 1 World Models
+### Paper Stage - World Models
 
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
 | 01 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA | 蚂蚁灵波 (Bobbyant) |  |
 | 02 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Act | 智元机器人 (AgiBot) |  |
 
-#### 2 RL
+### Paper Scope - World Models
+
+| Paper Title | Date | Key Take-aways | Conference | Institute |
+| ----------- | --------- | ----------------- | --------- | --------- |
+| <details><summary>Video Prediction Policy</summary>: A Generalist Robot Policy with Predictive Visual Representations</details> | May 2025 | VPP | <details><summary>ICML</summary>- Spotlight Paper</details> | <details><summary>IIIS, Tsinghua University / Shanghai AI Lab/ Qizhi Research Institute</summary>- Jianyu Chen</details> |
+| <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | <details><summary>RWM</summary>- unfortunately, the output of RWM, i.e., the observation, is only the robot proprioceptive state; that's to say, the robot is 'blind'. </details> | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
+| <details><summary>Stable Video Diffusion</summary>: Scaling Latent Video Diffusion Models to Large Datasets</details> | Nov 2023 | SVD | CVPR | Stability AI |
+| <details><summary>Align your Latents</summary>: High-Resolution Video Synthesis with Latent Diffusion Models</details> | Apr 2023 | <details><summary>Video LDM</summary>- a latent diffusion model for video generation<br>- additional temporal layers are interleaved with the existing spatial layers, and only the former will be updated during training.</details> | CVPR | LMU Munich / NVIDIA |
+
+
+### Paper Stage - RL
 
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
@@ -43,18 +51,7 @@ Note that,
 
 
 
-### Paper Scope
-
-#### World Models
-
-| Paper Title | Date | Key Take-aways | Conference | Institute |
-| ----------- | --------- | ----------------- | --------- | --------- |
-| <details><summary>Video Prediction Policy</summary>: A Generalist Robot Policy with Predictive Visual Representations</details> | May 2025 | VPP | <details><summary>ICML</summary>- Spotlight Paper</details> | <details><summary>IIIS, Tsinghua University / Shanghai AI Lab/ Qizhi Research Institute</summary>- Jianyu Chen</details> |
-| <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | <details><summary>RWM</summary>- unfortunately, the output of RWM, i.e., the observation, is only the robot proprioceptive state; that's to say, the robot is 'blind'. </details> | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
-| <details><summary>Stable Video Diffusion</summary>: Scaling Latent Video Diffusion Models to Large Datasets</details> | Nov 2023 | SVD | CVPR | Stability AI |
-| <details><summary>Align your Latents</summary>: High-Resolution Video Synthesis with Latent Diffusion Models</details> | Apr 2023 | <details><summary>Video LDM</summary>- a latent diffusion model for video generation<br>- additional temporal layers are interleaved with the existing spatial layers, and only the former will be updated during training.</details> | CVPR | LMU Munich / NVIDIA |
-
-#### RL
+### Paper Scope - RL
 
 | Paper Title | Date | Key Take-aways | Conference | Institute |
 | ----------- | --------- | ----------------- | --------- | --------- |
