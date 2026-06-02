@@ -30,7 +30,7 @@ Note that,
 | -- | --------------- | ----------- | ----------- | ------------- | ------ | --------- | ---- |
 | 01| <details><summary>WALL-WM</summary>: Carving World Action Modeling at the Event Joints</details> | May 2026 | (No Release) | Wan Series model (Not mentioned) |  | 自变量机器人 (X Square) | Coming Soon... |
 | 02 | <details><summary>π0.7</summary>: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities</details> | Apr 2026 | (No Release) | BAGEL (14B) |  | Physical Intelligence | Coming Soon... | 
-| 03 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA$^*$ | Wan2.2-5B |   | 蚂蚁灵波 (Bobbyant) | Coming Soon... |
+| 03 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA<sup>*</sup> | Wan2.2-5B |   | 蚂蚁灵波 (Bobbyant) | Coming Soon... |
 | 04 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Base | LTX-Video 2B  / COSMOS2 2B |  | 智元机器人 (AgiBot) | Coming Soon... |
 
 <sup>*: The model strictly should be categorized as a World Action Model (WAM) rather than a World Model (WM), and no decoupled WM is included in this work.</sup>
@@ -71,7 +71,7 @@ Note that,
 
 ## Toolkits & Projects
 
-### Implementations of RL Algorithms$^*$
+### Implementations of RL Algorithms<sup>*</sup>
 
 | RL Platform                                                        | Documentation                                                                                                                                                        | Code Coverage                                                                                                                                                | PyTorch support   | Tensorboard support  | Last Update                                                                                                       |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
