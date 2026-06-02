@@ -1,5 +1,5 @@
-# Awesome Works of RL in VLA
-Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to World Models and Reinforcement Learning (RL) in Visual Language Agents (VLA)!
+# Awesome Works in VLA: World Models & Reinforcement Learning
+Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to World Models (WMs) and Reinforcement Learning (RL) in Visual Language Agents (VLA)!
 
 Note that,
 
@@ -26,10 +26,22 @@ Note that,
 
 ### Paper Stage - World Models
 
+| # | Paper Title | Date | Model | Backbone (#Params) | Key Take-aways | Company/Institute | Notes |
+| -- | --------------- | ----------- | ----------- | ------------- | ------ | --------- | ---- |
+| 01| <details><summary>WALL-WM</summary>: Carving World Action Modeling at the Event Joints</details> | May 2026 | (No Release) | Wan Series model (Not mentioned) |  | 自变量机器人 (X Square) | Coming Soon... |
+| 02 | <details><summary>π0.7</summary>: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities</details> | Apr 2026 | (No Release) | BAGEL (14B) |  | Physical Intelligence | Coming Soon... | 
+| 03 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA$^*$ | Wan2.2-5B |   | 蚂蚁灵波 (Bobbyant) | Coming Soon... |
+| 04 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Base | LTX-Video 2B  / COSMOS2 2B |  | 智元机器人 (AgiBot) | Coming Soon... |
+
+<sup>*: The model strictly should be categorized as a World Action Model (WAM) rather than a World Model (WM), and no decoupled WM is included in this work.</sup>
+
+### Paper Stage - RL
+
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
-| 01 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA | 蚂蚁灵波 (Bobbyant) |  |
-| 02 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Act | 智元机器人 (AgiBot) |  |
+| 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 (AgiBot) | [Notes](notes/sop_260127/sop_260127.md) |
+| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | <details><summary>GR-RL</summary> - data filter &augmentation<br>- distributional critic<br>- offline &online RL for policy training</details> | 字节跳动 (ByteDance) Seed | [Notes](notes/gr-rl_260209/notes.md) |
+| 03 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
 
 ### Paper Scope - World Models
 
@@ -39,17 +51,6 @@ Note that,
 | <details><summary>Robotic World Model</summary>: A Neural Network Simulator for Robust Policy Optimization in Robotics</details> | Jan 2025 | <details><summary>RWM</summary>- unfortunately, the output of RWM, i.e., the observation, is only the robot proprioceptive state; that's to say, the robot is 'blind'. </details> | <details><summary>NeurIPS</summary>- Outstanding Paper Award, Embodied World Models for Decision Making Workshop</details> | ETH Zurich |
 | <details><summary>Stable Video Diffusion</summary>: Scaling Latent Video Diffusion Models to Large Datasets</details> | Nov 2023 | SVD | CVPR | Stability AI |
 | <details><summary>Align your Latents</summary>: High-Resolution Video Synthesis with Latent Diffusion Models</details> | Apr 2023 | <details><summary>Video LDM</summary>- a latent diffusion model for video generation<br>- additional temporal layers are interleaved with the existing spatial layers, and only the former will be updated during training.</details> | CVPR | LMU Munich / NVIDIA |
-
-
-### Paper Stage - RL
-
-| # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
-| -- | --------------- | --------- | ----------------- | --------- | ---- |
-| 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 (AgiBot) | [Notes](notes/sop_260127/sop_260127.md) |
-| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | <details><summary>GR-RL</summary> - data filter &augmentation<br>- distributional critic<br>- offline &online RL for policy training</details> | 字节跳动 (ByteDance) Seed | [Notes](notes/gr-rl_260209/notes.md) |
-| 03 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence (PI) | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
-
-
 
 ### Paper Scope - RL
 
@@ -70,7 +71,7 @@ Note that,
 
 ## Toolkits & Projects
 
-### Implementations of RL Algorithms
+### Implementations of RL Algorithms$^*$
 
 | RL Platform                                                        | Documentation                                                                                                                                                        | Code Coverage                                                                                                                                                | PyTorch support   | Tensorboard support  | Last Update                                                                                                       |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
