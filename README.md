@@ -1,5 +1,5 @@
-# Awesome Works in VLA: World Models & Reinforcement Learning
-Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to World Models (WMs) and Reinforcement Learning (RL) in Visual Language Agents (VLA)!
+# Awesome Works in VLA: The Basic & Reinforcement Learning
+Hi, here is a curated list of tech report, research papers, datasets, benchmarks, insights, toolkits and resources related to Reinforcement Learning (RL) and World Models (WMs) in Visual Language Agents (VLA)! Basic works are highlighted in front to steer our further researches.
 
 Note that,
 
@@ -10,8 +10,9 @@ Note that,
 ## Table of Contents
 - [Paper](#paper)
     - Paper Stage - Main Focus (w.r.t. the Industry)
-        - [World Models](#paper-stage---world-models)
+        - [The Basic](#paper-stage---the-basic)
         - [RL](#paper-stage---rl)
+        - [World Models](#paper-stage---world-models)
     - Paper Scope - A Broader Horizon (w.r.t. the Community)
         - [World Models](#paper-scope---world-models)
         - [RL](#paper-scope---rl)
@@ -24,24 +25,30 @@ Note that,
 
 ## Paper
 
-### Paper Stage - World Models
-
-| # | Paper Title | Date | Model | Backbone (#Params) | Key Take-aways | Company/Institute | Notes |
-| -- | --------------- | ----------- | ----------- | ------------- | ------ | --------- | ---- |
-| 01| <details><summary>WALL-WM</summary>: Carving World Action Modeling at the Event Joints</details> | May 2026 | (No Release) | Wan Series model (Not mentioned) |  | 自变量机器人 (X Square) | Coming Soon... |
-| 02 | <details><summary>π0.7</summary>: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities</details> | Apr 2026 | (No Release) | BAGEL (14B) |  | Physical Intelligence | Coming Soon... | 
-| 03 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA<sup>*</sup> | Wan2.2-5B |   | 蚂蚁灵波 (Bobbyant) | Coming Soon... |
-| 04 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Base | LTX-Video 2B  / COSMOS2 2B |  | 智元机器人 (AgiBot) | Coming Soon... |
-
-<sup>*: The model strictly should be categorized as a World Action Model (WAM) rather than a World Model (WM), and no decoupled WM is included in this work.</sup>
+### Paper Stage - The Basic
+| # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
+| -- | --------------- | --------- | ----------------- | --------- | ---- |
+| 01 | <details><summary>A Careful Examination</summary>of Large Behavior Models for Multitask Dexterous Manipulation</details> | July 2025 | finetuned performance smoothly improves with increasing pretraining data | Toyota Research Institute | Coming Soon |
 
 ### Paper Stage - RL
 
 | # | Paper Title | Date | Key Take-aways | Company/Institute | Notes |
 | -- | --------------- | --------- | ----------------- | --------- | ---- |
-| 01 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 (AgiBot) | [Notes](notes/sop_260127/sop_260127.md) |
-| 02 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | <details><summary>GR-RL</summary> - data filter &augmentation<br>- distributional critic<br>- offline &online RL for policy training</details> | 字节跳动 (ByteDance) Seed | [Notes](notes/gr-rl_260209/notes.md) |
-| 03 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
+| 01 | <details><summary>π0.7</summary>: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities</details> | Apr 2026 | <details><summary>aditional metadata conditioning</summary>- train: annotate good/worse quality as ground truth<br>- deploy: condition only by good quality</detail> | Physical Intelligence | Coming Soon |
+| 02 | <details><summary>SOP</summary>: A Scalable Online Post-Training System for Vision-Language-Action Models</details> | Jan 2026 | SOP | 智元机器人 (AgiBot) | [Notes](notes/sop_260127/sop_260127.md) |
+| 03 | <details><summary>GR-RL</summary>: Going Dexterous and Precise for Long-Horizon Robotic Manipulation</details> | Dec 2025 | <details><summary>GR-RL</summary> - data filter &augmentation<br>- distributional critic<br>- offline &online RL for policy training</details> | 字节跳动 (ByteDance) Seed | [Notes](notes/gr-rl_260209/notes.md) |
+| 04 | <details><summary>${\pi}^{*}_{0.6}$</summary>: a VLA That Learns From Experience</details> | Nov 2025 | <details><summary>RECAP</summary>- consists of 3 steps: (1)data collection, (2)value function training and (3)advantage conditioned training.</details> | Physical Intelligence | [Notes](notes/pi0.6star_260127/Pi%2006_260127.pdf) |
+
+### Paper Stage - World Models
+
+| # | Paper Title | Date | Model | Backbone (#Params) | Key Take-aways | Company/Institute | Notes |
+| -- | --------------- | ----------- | ----------- | ------------- | ------ | --------- | ---- |
+| 01| <details><summary>WALL-WM</summary>: Carving World Action Modeling at the Event Joints</details> | May 2026 | (No Release) | Wan Series model (Not mentioned) |  | 自变量机器人 (X Square) | Notes |
+| 02 | <details><summary>π0.7</summary>: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities</details> | Apr 2026 | (No Release) | BAGEL (14B) |  | Physical Intelligence | Coming Soon | 
+| 03 | <details><summary>Causal World Modeling</summary>for Robot Control | Jan 2026 | LingBot-VA<sup>*</sup> | Wan2.2-5B |   | 蚂蚁灵波 (Bobbyant) | Notes |
+| 04 | <details><summary>Genie Envisioner (GE)</summary>: A Unified World Foundation Platform for Robotic Manipulation</details> | Aug 2025 | GE-Base | LTX-Video 2B  / COSMOS2 2B |  | 智元机器人 (AgiBot) | Notes |
+
+<sup>*: The model strictly should be categorized as a World Action Model (WAM) rather than a World Model (WM), and no decoupled WM is included in this work.</sup>
 
 ### Paper Scope - World Models
 
